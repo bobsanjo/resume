@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<navigation>
+		<link>
+			<title>Home</title>
+			<url>index.html</url>
+		</link>
+		<link>
+			<title>Services</title>
+			<url>services.html</url>
+		</link>
+		<link>
+			<title>About</title>
+			<url>about.html</url>
+		</link>
+		<link>
+			<title>Contact</title>
+			<url>contact.html</url>
+		</link>
+	</navigation>
+	<tagline>
+		<line>Serving Silicon Valley</line>
+		<line>and the World</line>
+	</tagline>
+</settings>

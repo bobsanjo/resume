@@ -1,0 +1,141 @@
+html, body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #958d86;
+	background-image: url(../images/bg.gif);
+	background-repeat: repeat-x;
+}
+
+#Page {
+	background-color: #dacec4;
+	background-color: #736C66;
+}
+
+#FlashMovie {
+	background-color: #736C66;
+}
+
+#ActionItems {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #b2a496;
+}
+
+#ActionItems h1 {
+	font-size:20px;
+	color:#ffffff;
+}
+
+#ActionItems p {
+	/*Class is uneditable in this layout*/
+}
+
+#ActionItems a {
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+#ActionItems a:hover {
+	color:#958d86;
+	text-decoration:none;
+}
+
+#NewsItems {
+	font-family: Arial, Helvetica, sans-serif;
+	border-top:15px #877f7a solid;
+	font-size: 11px;
+	font-weight: bold;
+	color: #b2a496;
+}
+
+#NewsItems .item {
+	background-color: #dacec4;
+	color: #666666;
+}
+
+#NewsItems h3 {
+	color:#753800;
+	font-size:16px;
+}
+
+#NewsItems p {
+	color:#666666;
+	font-weight:normal;
+}
+
+#NewsItems a,#BodyContent a {
+	color:#753800;
+	font-weight:bold;
+}
+
+#NewsItems a:hover,#BodyContent a:hover {
+	color:#000000;
+	font-weight:bold;
+}
+
+#InteriorHeader h5 {
+	position: relative;
+	margin-left: 200px;
+}
+#InteriorHeader h6 {
+	position: relative;
+	margin-left: 200px;
+}
+
+
+#BodyContent {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+#BodyContent #Content {
+	border-top: 15px #c8c8c8 solid;
+	background-color: #ffffff;
+	color: #000000;
+	font-weight: normal;
+}
+
+#BodyContent h2 {
+	color:#0000000;
+	font-size:20px;
+}
+
+#BodyContent p {
+	/*Class is uneditable in this layout*/	
+}
+
+#Footer {
+	font-size: 12px;
+}
+
+#Footer #TextLinks {
+	background-color: #DACEC4;
+	color: White;
+	font-weight: bold;
+}
+
+#Footer #TextLinks #Link a {
+	color: #736C66;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0 1em 0 1em;
+}
+
+#Footer #Disclaimer {
+	background-color: #433f3c;
+	color: #b0a59e;
+	font-weight: normal;
+	font-size: 10px;
+}
+
+#Footer #Disclaimer p {
+	/*Class is uneditable in this layout*/
+}
+
+
+
+
+
+

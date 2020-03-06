@@ -1,0 +1,202 @@
+/* These are standard layout styles and do not need modification */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#Page {
+	margin: 0 auto;
+	width: 710px;
+}
+
+#NavigationLinks {
+	visibility: hidden;
+	position: absolute;
+}
+
+/* ~~~~~~~~ Action Items ~~~~~~~~~ */
+
+#ActionItems {
+	height: 117px;
+	text-align: left;
+	position: relative;
+	display: block;
+}
+
+#ActionItems h1 {
+	margin:16px 0px 0px 34px;
+}
+
+#ActionItems p {
+	margin: 5px 20px 15px 34px;
+}
+
+#ActionItems a {
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+#ActionItems a:hover {
+	color:#958d86;
+	text-decoration:none;
+}
+
+#ActionItems #Item1 {
+	width:237px;
+	height: 118px;
+	position: relative;
+	background-image:url(../images/actionItem1Background.jpg);
+	float: left;
+}
+
+#ActionItems #Item2 {
+	width: 236px;
+	height: 118px;
+	position: relative;
+	background-image: url(../images/actionItem2Background.jpg);
+	float: left;
+}
+
+#ActionItems #Item3 {
+	width: 237px;
+	height: 118px;
+	position: relative;
+	background-image: url(../images/actionItem3Background.jpg);
+	float: left;
+}
+
+#NewsItems {
+	width: 237px;
+	background: url(../images/newsItemsBackground.jpg) no-repeat;
+	float: left;
+	text-align: left;
+	padding-bottom: 3em;
+	background-color: #dacec4;
+}
+
+#NewsItems .item {
+	padding-bottom: 1em;
+}
+
+#NewsItems h3 {
+	margin: 20px 0px 0px 34px;
+}
+
+#NewsItems p {
+	margin: 10px 34px 10px 34px;
+}
+
+#NewsItems a,#BodyContent a {
+	background:url(../images/linkBullet.gif) no-repeat;
+	padding:0px 0px 0px 18px;
+	text-decoration:none;
+	margin: 0px 0px 0px 34px;
+
+}
+
+#NewsItems a:hover,#BodyContent a:hover {
+	background:url(../images/linkBulletOver.gif) no-repeat;
+	padding:0px 0px 0px 18px;
+	text-decoration:none;
+}
+
+#BodyContent {
+	text-align: left;
+	float: right;
+}
+
+#BodyContent #Content {
+	width: 472px;
+	height: 100%;
+	background-color: #ffffff;
+	padding-bottom: 2em;
+}
+
+#BodyContent p {
+	margin: 20px 34px 0px 34px;
+}
+
+#Footer {
+	text-align: center;
+	font-weight: bold;
+	clear: both;
+	width: 710px;
+}
+
+#Footer #TextLinks #Link {
+	padding:15px;
+	text-align:center;
+}
+
+#Footer #Disclaimer p {
+	padding:20px;
+}
+
+
+
+
+/* These are standard sIFR styles... do not modify */
+
+.sIFR-flash {
+	visibility: visible !important;
+	margin: 0;
+}
+
+.sIFR-replaced {
+	visibility: visible !important;
+}
+
+span.sIFR-alternate {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
+}
+
+
+/* These "decoy" styles are used to hide the browser text before it is replaced... the negative-letter spacing in this case is used to make the browser text metrics match up with the sIFR text metrics since the sIFR text in this example is so much narrower... your own settings may vary... any weird sizing issues you may run into are usually fixed by tweaking these decoy styles */
+
+.sIFR-hasFlash #ActionItems h1 {
+	visibility: hidden;
+}
+
+.sIFR-hasFlash h2 {
+	visibility: hidden;
+	letter-spacing: -9px;
+	font-size: 35px;
+}
+
+.sIFR-hasFlash h3 {
+	visibility: hidden;
+	letter-spacing: -6px;
+	font-size: 25px;
+}
+
+.sIFR-hasFlash h4 {
+	visibility: hidden;
+	letter-spacing: -5px;
+	font-size: 25px;
+}
+
+.sIFR-hasFlash h4, .sIFR-hasFlash h5 {
+	visibility: hidden;
+}  
+
+h2, h4 {
+	margin: 20px 0px 0px 34px;
+}
+
+h5 {
+	margin-top: -53px;
+	font-size: 24px;
+}
+h6 {
+	font-size: 18px;
+	margin-top: -20px;
+}
