@@ -5,10 +5,7 @@
 			<title>Home</title>
 			<url>index.html</url>
 		</link>
-		<link>
-			<title>Services</title>
-			<url>services.html</url>
-		</link>
+		
 		<link>
 			<title>About</title>
 			<url>about.html</url>
