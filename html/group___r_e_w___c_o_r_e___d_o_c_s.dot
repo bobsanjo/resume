@@ -6,12 +6,11 @@ digraph "Core Documents"
   Node0 [label="Core Documents",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node1 [label="About",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__about.html"];
   Node4 [label="User Guides",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___u_s_e_r___g_u_i_d_e.html"];
-  Node6 [label="Quick Start Guides",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___q_u_i_c_k___s_t_a_r_t___g_u_i_d_e.html"];
-  Node5 [label="Testing Guides",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___t_e_s_t_i_n_g___g_u_i_d_e.html"];
+  Node5 [label="Quick Start Guides",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___q_u_i_c_k___s_t_a_r_t___g_u_i_d_e.html"];
   Node2 [label="Introduction to this Site",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__intro.html"];
-  Node8 [label="Robert's Resume",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__resume.html"];
+  Node7 [label="Robert's Resume",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__resume.html"];
   Node3 [label="Tutorial Guides",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___t_u_t_o_r_i_a_l___g_u_i_d_e.html"];
-  Node7 [label="Release Notes ver. 1.0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__release__notes.html"];
+  Node6 [label="Release Notes ver. 1.0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__release__notes.html"];
   Node0->Node1 [shape=plaintext, dir="back", style="solid"];
   Node0->Node2 [shape=plaintext, dir="back", style="solid"];
   Node0->Node3 [shape=plaintext, dir="back", style="solid"];
@@ -19,5 +18,4 @@ digraph "Core Documents"
   Node0->Node5 [shape=plaintext, dir="back", style="solid"];
   Node0->Node6 [shape=plaintext, dir="back", style="solid"];
   Node0->Node7 [shape=plaintext, dir="back", style="solid"];
-  Node0->Node8 [shape=plaintext, dir="back", style="solid"];
 }
