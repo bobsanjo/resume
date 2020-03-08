@@ -6,6 +6,8 @@ var NAVTREE =
     [ "api", "md_api.html", null ],
     [ "api2", "md_api2.html", null ],
     [ "introduction", "md_introduction.html", null ],
+    [ "qs1", "md_qs1.html", null ],
+    [ "qs2", "md_qs2.html", null ],
     [ "release-notes", "md_release-notes.html", null ],
     [ "resume", "md_resume.html", null ],
     [ "tut1", "md_tut1.html", null ],
