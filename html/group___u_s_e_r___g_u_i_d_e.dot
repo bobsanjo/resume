@@ -1,13 +1,13 @@
 digraph "User Guides"
 {
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
+  node [fontname="Helvetica",fontsize="10",shape=box];
   rankdir=LR;
-  Node1 [label="Core Documents",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___r_e_w___c_o_r_e___d_o_c_s.html",tooltip="Core documentation. "];
-  Node0 [label="User Guides",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node2 [label="User Guide 1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__user1.html"];
-  Node3 [label="User Guide 2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__user2.html"];
-  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
-  Node0->Node2 [shape=plaintext, dir="back", style="solid"];
-  Node0->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node2 [label="Core Documents",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___r_e_w___c_o_r_e___d_o_c_s.html",tooltip="Core documentation."];
+  Node1 [label="User Guides",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node3 [label="User Guide 1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__user1.html",tooltip=" "];
+  Node4 [label="User Guide 2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__user2.html",tooltip=" "];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node4 [shape=plaintext, dir="back", style="solid"];
 }

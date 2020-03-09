@@ -1,21 +1,21 @@
 digraph "Core Documents"
 {
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
+  node [fontname="Helvetica",fontsize="10",shape=box];
   rankdir=LR;
-  Node0 [label="Core Documents",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node1 [label="About",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__about.html"];
-  Node4 [label="User Guides",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___u_s_e_r___g_u_i_d_e.html"];
-  Node5 [label="Quick Start Guides",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___q_u_i_c_k___s_t_a_r_t___g_u_i_d_e.html"];
-  Node2 [label="Introduction to this Site",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__intro.html"];
-  Node7 [label="Robert's Resume",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__resume.html"];
-  Node3 [label="Tutorial Guides",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___t_u_t_o_r_i_a_l___g_u_i_d_e.html"];
-  Node6 [label="Release Notes ver. 1.0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__release__notes.html"];
-  Node0->Node1 [shape=plaintext, dir="back", style="solid"];
-  Node0->Node2 [shape=plaintext, dir="back", style="solid"];
-  Node0->Node3 [shape=plaintext, dir="back", style="solid"];
-  Node0->Node4 [shape=plaintext, dir="back", style="solid"];
-  Node0->Node5 [shape=plaintext, dir="back", style="solid"];
-  Node0->Node6 [shape=plaintext, dir="back", style="solid"];
-  Node0->Node7 [shape=plaintext, dir="back", style="solid"];
+  Node1 [label="Core Documents",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Core documentation."];
+  Node2 [label="About",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__about.html",tooltip=" "];
+  Node5 [label="User Guides",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___u_s_e_r___g_u_i_d_e.html",tooltip=" "];
+  Node6 [label="Quick Start Guides",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___q_u_i_c_k___s_t_a_r_t___g_u_i_d_e.html",tooltip=" "];
+  Node3 [label="Introduction to this Site",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__intro.html",tooltip=" "];
+  Node8 [label="Robert's Resume",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__resume.html",tooltip=" "];
+  Node4 [label="Tutorial Guides",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___t_u_t_o_r_i_a_l___g_u_i_d_e.html",tooltip=" "];
+  Node7 [label="Release Notes ver. 1.0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__release__notes.html",tooltip=" "];
+  Node1->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node4 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node5 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node6 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node7 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node8 [shape=plaintext, dir="back", style="solid"];
 }

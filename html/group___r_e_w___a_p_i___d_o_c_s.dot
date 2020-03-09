@@ -1,13 +1,13 @@
 digraph "API Docs"
 {
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
+  node [fontname="Helvetica",fontsize="10",shape=box];
   rankdir=LR;
-  Node3 [label="Other Methods",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__sdk__api2.html"];
-  Node1 [label="Some Methods",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__sdk__api3.html"];
-  Node0 [label="API Docs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node2 [label="Service Methods",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__sdk__api.html"];
-  Node0->Node1 [shape=plaintext, dir="back", style="solid"];
-  Node0->Node2 [shape=plaintext, dir="back", style="solid"];
-  Node0->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node4 [label="Other Methods",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__sdk__api2.html",tooltip=" "];
+  Node2 [label="Some Methods",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__sdk__api3.html",tooltip=" "];
+  Node1 [label="API Docs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="API documentation."];
+  Node3 [label="Service Methods",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__sdk__api.html",tooltip=" "];
+  Node1->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node4 [shape=plaintext, dir="back", style="solid"];
 }
